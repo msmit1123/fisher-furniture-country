@@ -9,10 +9,23 @@ function App() {
     <div className='App'>
       <header className='App-header'>
         <img src={fisherbrandLogo} alt='fisherbrand logo' width='300px' />
-        <h1>Please select country to continue to catalog:</h1>
+        <h1>Laboratory Furnishings</h1>
+        <h2>Please select a country to continue to catalog:</h2>
       </header>
-      <Button className='country'>America</Button>
-      <Button className='country'>Canada</Button>
+      <form>
+        <Button
+          className='country'
+          formAction='http://fisherfurniture.laboutfit.com/'
+        >
+          United States
+        </Button>
+        <Button
+          className='country'
+          formAction='http://fisherfurnitureca.laboutfit.com/'
+        >
+          Canada
+        </Button>
+      </form>
     </div>
   );
 }

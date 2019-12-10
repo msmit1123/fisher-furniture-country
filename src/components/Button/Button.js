@@ -4,7 +4,7 @@ import { PropTypes } from 'prop-types';
 import './Button.scss';
 
 function Button({ children, ...props }) {
-  return <div {...props}>{children}</div>;
+  return <button {...props}>{children}</button>;
 }
 
 Button.propTypes = {
