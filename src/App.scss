@@ -1,2 +1,10 @@
+@import './_variables.scss';
+
 .App {
+  text-align: center;
+  color: $fisher-color;
+}
+
+h1 {
+  font-size: 30px;
 }
