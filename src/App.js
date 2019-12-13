@@ -10,7 +10,7 @@ function App() {
       <header className='App-header'>
         <img src={fisherbrandLogo} alt='fisherbrand logo' width='300px' />
         <h1>Laboratory Furnishings</h1>
-        <h2>Please select a country to continue to catalog:</h2>
+        <h2>Select country to see catalog:</h2>
       </header>
       <form>
         <Button

@@ -1,5 +1,6 @@
 {
   "name": "fisher-furniture-country",
+  "homepage": "http://www.fisherlabfurniture.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
