@@ -10,7 +10,7 @@ function App() {
       <header className='App-header'>
         <img src={fisherbrandLogo} alt='fisherbrand logo' width='300px' />
         <h1>Laboratory Furnishings</h1>
-        <h2>Select country to see catalog:</h2>
+        <h2>Click to select catalog:</h2>
       </header>
       <form>
         <Button
@@ -24,6 +24,12 @@ function App() {
           formAction='http://fisherfurnitureca.laboutfit.com/'
         >
           Canada
+        </Button>
+        <Button
+          className='emergency'
+          formAction='http://fisher-emergencylab.laboutfit.com/'
+        >
+          Emergency Response
         </Button>
       </form>
     </div>

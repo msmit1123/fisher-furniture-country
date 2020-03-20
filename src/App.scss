@@ -16,3 +16,8 @@ h1 {
 h2 {
   margin-bottom: 5px;
 }
+
+h3 {
+  @extend h2;
+  color: $emergency-color;
+}
