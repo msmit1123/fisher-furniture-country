@@ -14,6 +14,12 @@ function App() {
       </header>
       <form>
         <Button
+          className='emergency'
+          formAction='http://fisher-emergencylab.laboutfit.com/'
+        >
+          Emergency Response
+        </Button>
+        <Button
           className='country'
           formAction='http://fisherfurniture.laboutfit.com/'
         >
@@ -24,12 +30,6 @@ function App() {
           formAction='http://fisherfurnitureca.laboutfit.com/'
         >
           Canada
-        </Button>
-        <Button
-          className='emergency'
-          formAction='http://fisher-emergencylab.laboutfit.com/'
-        >
-          Emergency Response
         </Button>
       </form>
     </div>
